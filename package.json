@@ -1,0 +1,41 @@
+{
+  "name": "trae-darkbulue",
+  "displayName": "trae-darkbulue",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.96.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Trae Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark_plus.json"
+      },
+      {
+        "label": "Trae Dark Blue",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark_blue.json"
+      },
+			{
+        "label": "Trae Modern",
+        "uiTheme": "vs-dark",
+        "path": "./themes/dark_modern.json"
+      },
+      {
+        "label": "Trae Light",
+        "uiTheme": "vs-dark",
+        "path": "./themes/light_icube.json"
+      },
+      {
+        "label": "Trae-darkblue",
+        "uiTheme": "vs-dark",
+        "path": "./themes/trae-darkblue-color-theme.json"
+      }
+    ]
+  }
+}

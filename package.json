@@ -4,7 +4,7 @@
   "description": "",
   "version": "0.0.1",
   "engines": {
-    "vscode": "^1.96.0"
+    "vscode": "^1.93.1"
   },
   "categories": [
     "Themes"
@@ -27,14 +27,19 @@
         "path": "./themes/dark_modern.json"
       },
       {
-        "label": "Trae Light",
-        "uiTheme": "vs-dark",
-        "path": "./themes/light_icube.json"
-      },
-      {
         "label": "Trae-darkblue",
         "uiTheme": "vs-dark",
         "path": "./themes/trae-darkblue-color-theme.json"
+      },
+      {
+        "label": "Trae Light",
+        "uiTheme": "vs",
+        "path": "./themes/light_icube.json"
+      },
+      {
+        "label": "Trae Light Modern",
+        "uiTheme": "vs",
+        "path": "./themes/light_modern.json"
       }
     ]
   }

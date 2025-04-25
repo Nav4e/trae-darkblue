@@ -2,7 +2,7 @@
   "name": "trae-darkbulue",
   "displayName": "trae-darkbulue",
   "description": "",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "engines": {
     "vscode": "^1.93.1"
   },
@@ -10,9 +10,7 @@
     "Themes"
   ],
   "activationEvents": [
-    "onLanguage:javascript",
     "onLanguage:javascriptreact",
-    "onLanguage:typescript",
     "onLanguage:typescriptreact"
   ],
   "main": "./out/extension.js",

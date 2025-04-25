@@ -2,7 +2,7 @@
   "name": "trae-darkbulue",
   "displayName": "trae-darkbulue",
   "description": "",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "engines": {
     "vscode": "^1.93.1"
   },
@@ -10,11 +10,11 @@
     "Themes"
   ],
   "activationEvents": [
-    "onLanguage:javascriptreact",
-    "onLanguage:typescriptreact"
+    "*"
   ],
   "main": "./out/extension.js",
   "scripts": {
+    "package": "vsce package",
     "install:all": "npm install && cd webview-ui && npm install",
     "start:webview": "cd webview-ui && npm run start",
     "build:webview": "cd webview-ui && npm run build",
@@ -48,7 +48,7 @@
         "uiTheme": "vs-dark",
         "path": "./themes/dark_blue.json"
       },
-			{
+      {
         "label": "Trae Modern",
         "uiTheme": "vs-dark",
         "path": "./themes/dark_modern.json"
